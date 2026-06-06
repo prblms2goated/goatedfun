@@ -1,0 +1,90 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "category": "Puzzle",
+    "description": "Join the numbers and get to the 2048 tile! A beautifully minimalist mathematical puzzle game that tests your strategic thinking and grid planning skills.",
+    "instructions": "Use your Arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!",
+    "iframeUrl": "https://gabrielecirulli.github.io/2048/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1614680376593-902f74fa0d41?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.8,
+    "tags": ["Math", "Addictive", "Classic", "Brain-Teaser"]
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "category": "Puzzle",
+    "description": "A fast-paced hexagonal block puzzle inspired by Tetris. Rotate the hexagon to match colored blocks before the screen fills up.",
+    "instructions": "Use Left and Right Arrow keys (or click/tap on screen edges) to rotate the hexagon. Stack blocks of the same color to remove them.",
+    "iframeUrl": "https://hextris.github.io/hextris/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.6,
+    "tags": ["Blocks", "Speed", "Reflex", "Geometry"]
+  },
+  {
+    "id": "pacman",
+    "title": "Google Pacman Doodle",
+    "category": "Arcade",
+    "description": "Play the classic original Google Pac-Man Doodle game. Navigate through the neon-blue maze, eat yellow dots, and avoid the colorful ghosts!",
+    "instructions": "Use your Arrow keys to steer Pac-Man. Eat power pellets to make ghosts vulnerable and edible for bonus points.",
+    "iframeUrl": "https://macek.github.io/google_pacman/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1579373903781-fd5703680f0c?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.9,
+    "tags": ["Retro", "Classic", "Ghosts", "Chaser"]
+  },
+  {
+    "id": "floppybird",
+    "title": "Flappy Bird",
+    "category": "Classic",
+    "description": "The viral sensation Flappy Bird reborn! Tap to flap your wings and navigate safely through a series of green tubes without crashing.",
+    "instructions": "Press the Spacebar, Arrow Up, or Click to flap the bird's wings. Time your jumps carefully to navigate through the pipe gaps.",
+    "iframeUrl": "https://nebez.github.io/floppybird/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.3,
+    "tags": ["Retro", "Difficult", "Clicker", "Highscore"]
+  },
+  {
+    "id": "doodle-jump",
+    "title": "Doodle Jump Clone",
+    "category": "Action",
+    "description": "Bounce endlessly onto wooden platforms, avoiding black holes, monsters, and breaking platforms as you aim for the stratosphere.",
+    "instructions": "Use the Left and Right Arrow keys (or move mouse cursor) to guide the character side to side. Shoot or jump over threats.",
+    "iframeUrl": "https://melvinchia.github.io/doodle-jump/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.5,
+    "tags": ["Jumping", "Highscore", "Classic", "Infinity"]
+  },
+  {
+    "id": "minesweeper",
+    "title": "Minesweeper",
+    "category": "Strategy",
+    "description": "Expose all the safe squares in a grid without detonating any of the hidden mines. Rely on logic and numerical clues to clear the field.",
+    "instructions": "Left-click (tap) to reveal a tile. Right-click to flag a tile that you suspect contains a hidden landmine.",
+    "iframeUrl": "https://sheerun.github.io/minesweeper/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.4,
+    "tags": ["Logic", "Retro", "PC-Classic", "Grid"]
+  },
+  {
+    "id": "tetris",
+    "title": "React Tetris",
+    "category": "Puzzle",
+    "description": "Classic Russian brick puzzle featuring the iconic falling tetromino blocks. Clear lines to gain score multiplier bonuses.",
+    "instructions": "Use Left/Right Arrow keys to move, Up Arrow key to rotate, Down Arrow key for slow fall, and Spacebar for hard drop.",
+    "iframeUrl": "https://chvin.github.io/react-tetris/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1605899435973-ca2d1a8861cf?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.7,
+    "tags": ["Blocks", "Classic", "Reflex", "Retro"]
+  },
+  {
+    "id": "astray-3d",
+    "title": "Astray 3D Maze",
+    "category": "Action",
+    "description": "A stylish, retro WebGL-powered 3D labyrinth ball game. Navigate your ball to the exit portal of increasingly complex floating mazes.",
+    "instructions": "Use W/A/S/D or Arrow keys to steer and control the rolling ball. Press Space to jump over obstacles and slide through blocks.",
+    "iframeUrl": "https://bmarcello.github.io/astray/",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=300&auto=format&fit=crop",
+    "rating": 4.5,
+    "tags": ["WebGL", "3D", "Maze", "Ball"]
+  }
+]

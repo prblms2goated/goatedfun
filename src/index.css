@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Custom scrollbar matching Artistic Flair dark vibes */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9AD93;
+}
+
+/* Base Body Alignment override to perfect deep black */
+body {
+  background-color: #050505;
+  color: #ffffff;
+}
+
+/* Subtle, fine-art canvas backgrounds under Goated Fun */
+.canvas-bg {
+  pointer-events: none;
+  background: radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.02) 0%, transparent 40%),
+              radial-gradient(circle at 90% 80%, rgba(201, 173, 147, 0.04) 0%, transparent 45%);
+}
+
+.text-glow-accent {
+  text-shadow: 0 0 10px rgba(201, 173, 147, 0.3), 0 0 20px rgba(201, 173, 147, 0.1);
+}
+
+.brutalist-border-accent {
+  border: 1px solid #C9AD93;
+}
+
+.vertical-accent-text {
+  writing-mode: vertical-rl;
+  font-size: 80px;
+  font-weight: 900;
+  opacity: 0.03;
+  text-transform: uppercase;
+  pointer-events: none;
+  user-select: none;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Goated Fun",
+  "description": "A high-performance portal of classic open-source unblocked games loaded dynamically from a JSON catalog at Goated Fun.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
