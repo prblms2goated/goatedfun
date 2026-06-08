@@ -1,0 +1,362 @@
+[
+  {
+    "id": "9anime",
+    "title": "9anime",
+    "category": "Watch unlimited anime episodes",
+    "description": "Watch unlimited anime episodes",
+    "instructions": "Launch 9anime and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://9a",
+    "thumbnailUrl": "/assets/img/9ani.webp",
+    "rating": 4.8,
+    "tags": [
+      "watchunlimitedanimeepisodes",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "amazon",
+    "title": "Amazon",
+    "category": "Shop milli",
+    "description": "Shop milli",
+    "instructions": "Launch Amazon and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://amazon.com",
+    "thumbnailUrl": "https://pl",
+    "rating": 5,
+    "tags": [
+      "shopmilli",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "bing",
+    "title": "Bing",
+    "category": "Search freely with B",
+    "description": "Search freely with B",
+    "instructions": "Launch Bing and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://bing.com",
+    "thumbnailUrl": "/assets/img/bing.web",
+    "rating": 4.8,
+    "tags": [
+      "searchfreelywithb",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "coolmathapps",
+    "title": "CoolMathapps",
+    "category": "Fun logic and math games at Co",
+    "description": "Fun logic and math games at Co",
+    "instructions": "Launch CoolMathapps and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://coolmathgame",
+    "thumbnailUrl": "/assets/img/cmg.webp",
+    "rating": 4.8,
+    "tags": [
+      "funlogicandmathgamesatco",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "crazyapps",
+    "title": "Crazyapps",
+    "category": "Play free ",
+    "description": "Play free ",
+    "instructions": "Launch Crazyapps and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://crazygames.c",
+    "thumbnailUrl": "https://pl",
+    "rating": 4.9,
+    "tags": [
+      "playfree",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "discord",
+    "title": "Discord",
+    "category": "Chat, voic",
+    "description": "Chat, voic",
+    "instructions": "Launch Discord and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://di",
+    "thumbnailUrl": "/assets/im",
+    "rating": 4.6,
+    "tags": [
+      "chatvoic",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "fmhy-net",
+    "title": "FMHY.net",
+    "category": "The larges",
+    "description": "The larges",
+    "instructions": "Launch FMHY.net and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://fmhy.net",
+    "thumbnailUrl": "/assets/im",
+    "rating": 4.6,
+    "tags": [
+      "thelarges",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "geforce-no",
+    "title": "GeForce NO",
+    "category": "Play high-end PC gam",
+    "description": "Play high-end PC gam",
+    "instructions": "Launch GeForce NO and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://pl",
+    "thumbnailUrl": "/assets/img/geforcenow.webp",
+    "rating": 4.7,
+    "tags": [
+      "playhighendpcgam",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "github",
+    "title": "GitHub",
+    "category": "Host,\\x20revi",
+    "description": "Host,\\x20revi",
+    "instructions": "Launch GitHub and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://gi",
+    "thumbnailUrl": "https://pl",
+    "rating": 5,
+    "tags": [
+      "hostxrevi",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "gmail",
+    "title": "Gmail",
+    "category": "Google\\x27s\\x20fast,\\x20secur",
+    "description": "Google\\x27s\\x20fast,\\x20secur",
+    "instructions": "Launch Gmail and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://ma",
+    "thumbnailUrl": "https://im",
+    "rating": 4.9,
+    "tags": [
+      "googlexsxfastxsecur",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "google",
+    "title": "Google",
+    "category": "Google.com",
+    "description": "Google.com",
+    "instructions": "Launch Google and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://google.com",
+    "thumbnailUrl": "/assets/im",
+    "rating": 4.5,
+    "tags": [
+      "googlecom",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "instagram",
+    "title": "Instagram",
+    "category": "Share photos, reels,",
+    "description": "Share photos, reels,",
+    "instructions": "Launch Instagram and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://in",
+    "thumbnailUrl": "https://www.google.c",
+    "rating": 4.7,
+    "tags": [
+      "sharephotosreels",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "movies-tv",
+    "title": "Movies/TV",
+    "category": "Watch and stream movies and TV shows.",
+    "description": "Watch and stream movies and TV shows.",
+    "instructions": "Launch Movies/TV and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://cineby.gd",
+    "thumbnailUrl": "/assets/img/movie-logo.webp",
+    "rating": 4.8,
+    "tags": [
+      "watchandstreammoviesandtvshows",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "neal-fun",
+    "title": "Neal.fun",
+    "category": "Games, visualizations, interac",
+    "description": "Games, visualizations, interac",
+    "instructions": "Launch Neal.fun and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://ne",
+    "thumbnailUrl": "/assets/img/nf.webp",
+    "rating": 4.7,
+    "tags": [
+      "gamesvisualizationsinterac",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "netflix",
+    "title": "Netflix",
+    "category": "Watch\\x20TV\\x20shows,\\x20movies,\\x20and\\x20originals.",
+    "description": "Watch\\x20TV\\x20shows,\\x20movies,\\x20and\\x20originals.",
+    "instructions": "Launch Netflix and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://netflix.com",
+    "thumbnailUrl": "https://play-lh.goog",
+    "rating": 4.9,
+    "tags": [
+      "watchxtvxshowsxmoviesxandxoriginals",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "outlook",
+    "title": "Outlook",
+    "category": "Email\\x20and\\x20calendar\\x20f",
+    "description": "Email\\x20and\\x20calendar\\x20f",
+    "instructions": "Launch Outlook and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://ou",
+    "thumbnailUrl": "https://www.google.com/s2/favi",
+    "rating": 5,
+    "tags": [
+      "emailxandxcalendarxf",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "pinterest",
+    "title": "Pinterest",
+    "category": "Discover a",
+    "description": "Discover a",
+    "instructions": "Launch Pinterest and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://pi",
+    "thumbnailUrl": "/assets/im",
+    "rating": 4.8,
+    "tags": [
+      "discovera",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "reddit",
+    "title": "Reddit",
+    "category": "Community ",
+    "description": "Community ",
+    "instructions": "Launch Reddit and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://re",
+    "thumbnailUrl": "/assets/img/reddit.w",
+    "rating": 4.9,
+    "tags": [
+      "community",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "symbolab",
+    "title": "Symbolab",
+    "category": "Step-by-st",
+    "description": "Step-by-st",
+    "instructions": "Launch Symbolab and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://symbolab.com",
+    "thumbnailUrl": "/assets/img/symb.webp",
+    "rating": 4.8,
+    "tags": [
+      "stepbyst",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "twitch",
+    "title": "Twitch",
+    "category": "Watch\\x20and\\x20",
+    "description": "Watch\\x20and\\x20",
+    "instructions": "Launch Twitch and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://tw",
+    "thumbnailUrl": "/assets/im",
+    "rating": 5,
+    "tags": [
+      "watchxandx",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "wikipedia",
+    "title": "Wikipedia",
+    "category": "The\\x20free\\x20encyclopedia\\x20that\\x20any",
+    "description": "The\\x20free\\x20encyclopedia\\x20that\\x20any",
+    "instructions": "Launch Wikipedia and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://wikipedia.or",
+    "thumbnailUrl": "https://www.google.c",
+    "rating": 4.7,
+    "tags": [
+      "thexfreexencyclopediaxthatxany",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "x-x20-twitter-",
+    "title": "X\\x20(Twitter)",
+    "category": "Real-time news and s",
+    "description": "Real-time news and s",
+    "instructions": "Launch X\\x20(Twitter) and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://x.",
+    "thumbnailUrl": "/assets/img/twitter-x.webp",
+    "rating": 4.7,
+    "tags": [
+      "realtimenewsands",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "youtube",
+    "title": "YouTube",
+    "category": "Watch, cre",
+    "description": "Watch, cre",
+    "instructions": "Launch YouTube and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "https://youtube.com",
+    "thumbnailUrl": "/assets/im",
+    "rating": 4.9,
+    "tags": [
+      "watchcre",
+      "unblocked",
+      "retro"
+    ]
+  },
+  {
+    "id": "app-name",
+    "title": "App name",
+    "category": "App description",
+    "description": "App description",
+    "instructions": "Launch App name and follow in-game tutorials. Standard keyboard or mouse controls apply.",
+    "iframeUrl": "#",
+    "thumbnailUrl": "/assets/img/dsci.ico",
+    "rating": 4.6,
+    "tags": [
+      "appdescription",
+      "unblocked",
+      "retro"
+    ]
+  }
+]

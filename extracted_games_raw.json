@@ -1,0 +1,3 @@
+[
+  "{const bi=bf[\"contentWin\"+\"dow\"]['location'][\"href\"],bj=bf[\"contentWin\"+\"dow\"][\"document\"][\"title\"];if(ba['jwyyC'](\"about:blan\"+'k',bi))return;bd[\"isLoading\"]||bi===b3['current'][bd['id']]||ba['FWglm'](bi,bd[\"url\"])||(b3['current'][bd['id']]=bi,ba[\"nMxcJ\"](aS,bd['id'],bi)),bj&&ba['zNHVP'](bj,b4['current'][bd['id']])&&ba[\"zNHVP\"](bj,bd[\"title\"])&&(b4['current'][bd['id']]=bj,ba[\"CrYAu\"](aT,bd['id'],bj));}"
+]

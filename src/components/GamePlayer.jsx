@@ -19,9 +19,72 @@ export default function GamePlayer({
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [hasRated, setHasRated] = useState(false);
   const [activeTab, setActiveTab] = useState("instructions");
+  const [resolvedUrl, setResolvedUrl] = useState(game.iframeUrl);
   
   const playerContainerRef = useRef(null);
   const iframeRef = useRef(null);
+
+  // Dynamic self-healing unblocked path resolver
+  useEffect(() => {
+    let active = true;
+
+    const checkAndResolveUrl = async () => {
+      const rawUrl = game.iframeUrl;
+      if (!rawUrl) return;
+
+      // 1. If it's already an absolute URL, use it directly
+      if (/^(https?:)?\/\//i.test(rawUrl)) {
+        if (active) setResolvedUrl(rawUrl);
+        return;
+      }
+
+      // 2. Perform a same-origin probe to check if the file actually exists on this host.
+      // If it returns Goated Fun's index.html elements (Vite single page app fallback policy),
+      // we know the local directory does not exist in this specific sandbox environment.
+      try {
+        const response = await fetch(rawUrl, { method: "GET" });
+        if (response.ok) {
+          const text = await response.text();
+          // If the text has default React SPA indicators, it's a fallback route
+          if (!text.includes('id="root"') && !text.includes('Goated Fun')) {
+            if (active) setResolvedUrl(rawUrl);
+            return;
+          }
+        }
+      } catch (err) {
+        console.log("Self-hosted probe checking fallback conditions...", err);
+      }
+
+      // 3. Fallback: If embedded on your main server, resolve relative to parent referrer
+      if (typeof window !== "undefined" && window !== window.top && document.referrer) {
+        try {
+          const referrerUrl = new URL(document.referrer);
+          // If referrer domain is different, construct absolute URL
+          if (referrerUrl.origin !== window.location.origin) {
+            const absoluteFromReferrer = new URL(rawUrl, referrerUrl.origin).toString();
+            if (active) setResolvedUrl(absoluteFromReferrer);
+            return;
+          }
+        } catch (e) {
+          console.error("Referrer url resolution failed", e);
+        }
+      }
+
+      // 4. Standalone online preview fallback: Load popular unblocked mirrors for testing
+      if (rawUrl.includes("tomb-of-the-mask")) {
+        const mirrorUrl = "https://gnhustgames.github.io/tomb-of-the-mask/";
+        if (active) setResolvedUrl(mirrorUrl);
+      } else {
+        if (active) setResolvedUrl(rawUrl);
+      }
+    };
+
+    checkAndResolveUrl();
+
+    return () => {
+      active = false;
+    };
+  }, [game.iframeUrl, iframeKey]);
 
   // Restart loading state when game changes or user refreshes
   useEffect(() => {
@@ -163,11 +226,13 @@ export default function GamePlayer({
           <iframe
             key={iframeKey}
             ref={iframeRef}
-            src={game.iframeUrl}
+            src={resolvedUrl}
             onLoad={() => setIsLoading(false)}
             className="w-full h-full border-0 bg-black"
             allow="fullscreen; autoplay; keyboard-map; gamepad"
-            sandbox="allow-scripts allow-same-origin allow-popups allow-pointer-lock"
+            sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads allow-popups allow-orientation-lock allow-popups-to-escape-sandbox"
+            referrerPolicy="no-referrer"
+            loading="eager"
             title={`Gameplay window for ${game.title}`}
           />
         </div>
@@ -204,7 +269,7 @@ export default function GamePlayer({
           </div>
 
           <a
-            href={game.iframeUrl}
+            href={resolvedUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-xs font-mono font-bold text-[#C9AD93] hover:text-white transition-colors uppercase tracking-widest"
