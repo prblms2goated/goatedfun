@@ -34,10 +34,17 @@ function standardizeGames() {
       }
       seenUrls.add(url);
 
-      const gameId = appName.toLowerCase()
+      const baseGameId = (appName.toLowerCase()
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/-+$/g, '')
-        .replace(/^-+/g, '');
+        .replace(/^-+/g, '')) || `game-${Math.random().toString(36).substring(2, 7)}`;
+
+      let gameId = baseGameId;
+      let suffix = 2;
+      while (standardizedGames.some(g => g.id === gameId)) {
+        gameId = `${baseGameId}-${suffix}`;
+        suffix++;
+      }
 
       // Structure instructions
       let instructions = 'Use standard keyboard WASD or Arrow Keys for movement. Use Spacebar, Shift, or mouse click elements for gameplay functions.';
